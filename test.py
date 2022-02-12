@@ -39,7 +39,7 @@ while(index<row_count):
     
     
     if(lists[ran][5]==answer):
-        print("Good ahhh\n")
+        print("Good \n")
 
     elif(lists[ran][5]!=answer):
         print("No ahhh\nThe anwer is "+lists[ran][5])
@@ -53,7 +53,7 @@ while(index<row_count):
     else:
         print("\n")
         continue
-print("\n\n----------Review Time <3----------")
+print("\n\n----------Review Time ----------")
 input()
 i=0
 for num in notcorlist:
@@ -66,6 +66,6 @@ for num in notcorlist:
     if(lists[num][6]!=""):
         print("From ",lists[num][6],"\n")
     input()
-print("\nFinish! You are the best. I love you ahhh\n")
+print("\nFinish!")
 
 input("Press any key to leave")
